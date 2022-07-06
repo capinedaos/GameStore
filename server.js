@@ -35,6 +35,6 @@ db.sync()
   .then(() => console.log('Db synced'))
   .catch((err) => console.log(err));
 
-app.listen(4000, () => {
+app.listen(3000, () => {
   console.log('Express app running!!');
 });

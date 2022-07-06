@@ -24,7 +24,6 @@ const GameInConsole = db.define(
       defaultValue: 'active',
     },
   },
-  { timestamps: false }
 );
 
 module.exports = { GameInConsole };
